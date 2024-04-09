@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 import fonts from 'google-fonts';
 
 fonts.add({
-    'Inter': ['400', '500', '600']
+    'Inter': ['400', '500', '600', '700']
 })
 
 export default createGlobalStyle`

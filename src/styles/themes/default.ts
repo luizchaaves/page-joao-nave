@@ -7,7 +7,7 @@ export const defaultTheme = {
         secondary: '#FCEFF9'
     },
     colors: {
-      green_light: '#5EF38C',
+      green_light: '#4ed477',
       green_dark: '#04773B',
       gray_light: '#FCEFF9',
       gray_dark: '#222222',
