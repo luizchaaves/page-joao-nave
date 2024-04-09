@@ -1,9 +1,12 @@
+import GlobalStyles from './styles/global';
+import Providers from './components/providers';
 
 function App() {
 
   return (
-    <div>
-    </div>
+    <Providers>
+        <GlobalStyles/>
+    </Providers>
   )
 }
 
