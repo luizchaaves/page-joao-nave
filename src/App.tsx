@@ -3,6 +3,7 @@ import Providers from './components/providers';
 
 import Home from './components/home';
 import Information from './section/information';
+import Testimonials from './section/testimonials';
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <Providers>
         <Home/>
         <Information/>
+        <Testimonials/>
         <GlobalStyles/>
     </Providers>
   )
