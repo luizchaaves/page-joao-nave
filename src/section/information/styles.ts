@@ -1,18 +1,18 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
-    min-height: 100vh;
+    background: ${(props) => props.theme.background.secondary};
+    color: ${(props) => props.theme.colors.gray_dark};    
+`
+
+export const Container = styled.div`
     max-width: 1200px;
     margin: 0 auto;
     padding: 64px 16px;
 
     display: flex;
     flex-direction: column;
-    gap: 128px;
-
-    @media (max-width: ${(props) => props.theme.breakpoints.mobile}) {
-        gap: 88px;
-    }
+    gap: 64px; 
 `
 
 export const Header = styled.div`

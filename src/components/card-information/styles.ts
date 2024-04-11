@@ -33,6 +33,7 @@ export const Icon = styled.div`
     background: ${(props) => props.theme.colors.green_light};
     border-radius: 8px;
     font-size: 24px;
+    color: ${(props) => props.theme.colors.white};
 
     @media (max-width: ${(props) => props.theme.breakpoints.mobile}) {
         font-size: 20px;

@@ -5,7 +5,7 @@ export const ButtonElement = styled.button`
     cursor: pointer;
     border: none;
     border-radius: 6px;
-    min-width: 176px;
+    min-width: 224px;
     background: ${(props) => props.theme.colors.green_light};
     color: ${(props) => props.theme.colors.gray_dark};
     padding: 12px 20px;
