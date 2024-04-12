@@ -7,6 +7,7 @@ import Testimonials from './section/testimonials';
 import Differential from './section/differential';
 import Divider from './components/divider/index';
 import Courses from './section/courses';
+import Biography from './section/biography';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Divider/>
         <Differential/>
         <Courses/>
+        <Biography/>
         <GlobalStyles/>
     </Providers>
   )
