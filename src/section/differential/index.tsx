@@ -1,4 +1,5 @@
-import { Header, List, ListItem, Section } from './styles'
+import CheckIcon from '../../assets/check'
+import { Grid, Header, Section } from './styles'
 
 const Differential = () => {
   return (
@@ -6,13 +7,29 @@ const Differential = () => {
         <Header>
            <h2>Para você <span>dominar</span> o mercado</h2>
         </Header>
-        <List>
-        <ListItem>Acesso a fornecedores premium</ListItem>
-        <ListItem>Estratégias de compras eficientes </ListItem>
-        <ListItem>Suporte personalizado</ListItem>
-        <ListItem>Conteúdo atualizado regularmente</ListItem>
-        <ListItem>Garantia de satisfação</ListItem>
-        </List>
+
+        <Grid>
+            <div>
+                <CheckIcon/>
+                <p>Acesso a fornecedores premium</p>
+            </div>
+            <div>
+                <CheckIcon/>
+                <p>Estratégias de compras eficientes</p>
+            </div>
+            <div>
+                <CheckIcon/>
+                <p>Suporte personalizado</p>
+            </div>
+            <div>
+                <CheckIcon/>
+                <p>Conteúdo atualizado regularmente</p>
+            </div>
+            <div>
+                <CheckIcon/>
+                <p>Garantia de satisfação</p>
+            </div>
+        </Grid>
     </Section>
   )
 }

@@ -34,38 +34,20 @@ export const Header = styled.div`
     }
 `
 
-export const List = styled.ul`
-    list-style-type: none;
-    padding-left: 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-`
-export const ListItem = styled.li`
-    position: relative;
-    padding-left: 32px;
+export const Grid = styled.div`
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 64px;
+    column-gap: 32px;
 
-    &::before {
-        content: '';
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        left: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        border: 2px solid ${(props) => props.theme.colors.green_dark};
-        border-radius: 50%;
-    }
+    div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 8px;
 
-    &::after {
-        content: '';
-        position: absolute;
-        width: 10px;
-        height: 10px;
-        top: 50%;
-        left: 10px;
-        transform: translate(-3px, -50%);
-        border-radius: 50%;
-        background-color: ${(props) => props.theme.colors.green_light};
+        p {
+            font-weight: 500;
+        }
     }
 `
