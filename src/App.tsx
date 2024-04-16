@@ -8,6 +8,7 @@ import Differential from './section/differential';
 import Divider from './components/divider/index';
 import Courses from './section/courses';
 import Biography from './section/biography';
+import Questions from './section/questions';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Differential/>
         <Courses/>
         <Biography/>
+        <Questions/>
         <GlobalStyles/>
     </Providers>
   )
