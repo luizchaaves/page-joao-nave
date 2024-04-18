@@ -4,7 +4,7 @@ import Image from '../../assets/background.jpeg';
 const Biography = () => {
   return (
     <Section>
-      <Container>
+      <Container data-aos="fade-right">
         <Photo>
             <div>
                 <img src={Image} alt="biography_image" />

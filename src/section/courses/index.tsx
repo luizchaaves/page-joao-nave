@@ -35,7 +35,7 @@ const Courses = () => {
 
   return (
     <Section>
-        <Container>
+        <Container data-aos="fade-up">
             <Header>
                 <h2>Inscreva-se!</h2>
             </Header>

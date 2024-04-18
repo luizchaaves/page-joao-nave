@@ -6,7 +6,7 @@ import Button from '../../components/button';
 const Information = () => {
   return (
     <Section>
-        <Container>
+        <Container data-aos="fade-up">
             <Header>
                 <h2>Tudo para te ajudar a ter resultado <span>mais rápido</span>!</h2>
             </Header>

@@ -17,17 +17,17 @@ const Accordion = ({title, description}: Props) => {
 
   return (
     <StyleSheetManager shouldForwardProp={(prop) => prop !== 'isopen'}>
-      <Container isOpen={isOpen.toString()}>
+      <Container isopen={isOpen.toString()}>
         <Header onClick={toggleAccordion}>
-            <Title isOpen={isOpen.toString()}>
+            <Title isopen={isOpen.toString()}>
                 {title}
             </Title>
-            <Icon isOpen={isOpen.toString()}>
+            <Icon isopen={isOpen.toString()}>
                 <FaAngleRight />
             </Icon>
         </Header>
 
-        <Description isOpen={isOpen.toString()}>
+        <Description isopen={isOpen.toString()}>
           {description}
         </Description>
       </Container>

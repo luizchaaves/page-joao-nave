@@ -12,6 +12,7 @@ export const ButtonElement = styled.button`
     box-sizing: border-box;
     transition: .2s;
     font-weight: 600;
+    min-height: 52px;
 
     &:hover {
         outline: none;
@@ -20,5 +21,6 @@ export const ButtonElement = styled.button`
 
     @media (max-width: ${(props) => props.theme.breakpoints.mobile}) {
         font-size: 14px;
+        min-height: 44px;
     }
 `

@@ -99,7 +99,7 @@ const Questions = () => {
 
   return (
     <Section>
-        <Container>
+        <Container data-aos="fade-down">
             <Header>
                 <h2>Perguntas frequentes</h2>
             </Header>

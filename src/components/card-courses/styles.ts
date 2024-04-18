@@ -11,6 +11,7 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     gap: 16px;
+    min-height: 300px;
 `
 
 export const Title = styled.h3`
