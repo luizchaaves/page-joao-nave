@@ -59,9 +59,11 @@ export const Content = styled.div`
     flex-direction: column;
     gap: 8px;
 
-    & > span {
+    & > pre {
         font-size: 14px;
         text-align: justify;
+        font-family: inherit;
+        white-space: pre-wrap;
     }
 `
 

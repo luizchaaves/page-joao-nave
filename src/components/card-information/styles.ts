@@ -7,10 +7,15 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     gap: 8px;
+    min-height: 330px;
 
     span {
-        font-size: 16px;
-        font-weight: 500;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    @media (max-width: 866px) {
+        min-height: auto;
     }
 `
 

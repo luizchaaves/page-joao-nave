@@ -3,11 +3,13 @@ import { Container, Header, Icon } from './styles';
 
 type ICardInformation = {
     icon: IconType,
+    title: string,
     description: string
 }
 
 const CardInformation = ({
     icon,
+    title,
     description
 }: ICardInformation) => {
     const IconComponent = icon;
@@ -18,9 +20,9 @@ const CardInformation = ({
             <Icon>
                 <IconComponent/>
             </Icon>
-            <h2>{description}</h2>
+            <h2>{title}</h2>
         </Header>
-        <span>descrição descrição descrição</span>
+        <span>{description}</span>
     </Container>
   )
 }
