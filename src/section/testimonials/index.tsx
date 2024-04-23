@@ -1,4 +1,11 @@
-import { Header, Section } from './styles'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import {  Pagination, Navigation, Autoplay } from 'swiper/modules';
+import { Header, Section, Content } from './styles'
+import Depoimento from '../../assets/depoimento.jpeg.webp';
+
+import 'swiper/css'
+import 'swiper/css/free-mode'
+import 'swiper/css/pagination'
 
 const Testimonials = () => {
   return (
@@ -6,9 +13,37 @@ const Testimonials = () => {
         <Header>
            <h2>Veja o que nossos clientes estão falando e o <span>resultado</span> que estão tendo</h2>
         </Header>
-        <div>
-            Carousel com os depoimentos
-        </div>
+        <Content>
+            <Swiper
+                slidesPerView={1}
+                spaceBetween={30}
+                loop={true}
+                navigation={true}
+                pagination={{
+                    clickable: true,
+                }}
+                autoplay={{
+                    delay: 1500,
+                    disableOnInteraction: false,
+                }}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    984: {
+                        slidesPerView: 3,
+                        spaceBetween: 40,
+                    }
+                    }}
+                modules={[Pagination, Navigation, Autoplay]}
+            >
+                <SwiperSlide><img src={Depoimento} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Depoimento} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Depoimento} alt="" /></SwiperSlide>
+                <SwiperSlide><img src={Depoimento} alt="" /></SwiperSlide>
+            </Swiper>
+        </Content>
     </Section>
   )
 }

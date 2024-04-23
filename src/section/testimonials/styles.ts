@@ -33,3 +33,32 @@ export const Header = styled.div`
         }
     }
 `
+
+export const Content = styled.div`
+    height: 650px;
+
+    & .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    & .swiper-slide {
+        background: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid transparent;
+        background: linear-gradient(145deg, rgba(34,34,34,1) 0%, rgba(78,212,119,1) 50%, rgba(34,34,34,1) 100%) border-box;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    & .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+`
