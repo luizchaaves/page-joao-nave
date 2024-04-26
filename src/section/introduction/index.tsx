@@ -1,7 +1,7 @@
 import { Section, Wrapper, Content } from './styles';
-import Button from '../button';
+import Button from '../../components/button';
 
-const Home = () => {
+const Introduction = () => {
     return (
         <Section>
             <Wrapper>
@@ -15,4 +15,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Introduction;
