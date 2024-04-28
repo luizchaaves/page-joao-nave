@@ -9,6 +9,13 @@ interface Props {
 }
 
 const Information = ({ informations }: Props) => {
+    const scrollToCoursesButton = () => {
+        const coursesSection = document.getElementById('courses');
+        if(coursesSection) {
+            coursesSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+
     const getIconByName = (iconName: string): IconType => {
         const iconComponent = (FaIcon as {[key: string]: IconType}) [iconName];
         return iconComponent
@@ -28,7 +35,7 @@ const Information = ({ informations }: Props) => {
             </Grid>
 
             <ContainerButton>
-                <Button>Garantir curso + fornecedores</Button>
+                <Button onClick={scrollToCoursesButton}>Garantir curso + fornecedores</Button>
             </ContainerButton>
         </Container>
     </Section>
