@@ -1,13 +1,17 @@
+import { IImage } from '../../types/data-types';
 import { Swiper, SwiperSlide } from 'swiper/react'
 import {  Pagination, Navigation, Autoplay } from 'swiper/modules';
 import { Header, Section, Content } from './styles'
-import Depoimento from '../../assets/depoimento.jpeg.webp';
 
 import 'swiper/css'
 import 'swiper/css/free-mode'
 import 'swiper/css/pagination'
 
-const Testimonials = () => {
+interface Props {
+    testimonials: IImage[];
+}
+
+const Testimonials = ({ testimonials }: Props) => {
   return (
     <Section data-aos="fade-right">
         <Header>
@@ -38,10 +42,9 @@ const Testimonials = () => {
                     }}
                 modules={[Pagination, Navigation, Autoplay]}
             >
-                <SwiperSlide><img src={Depoimento} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={Depoimento} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={Depoimento} alt="" /></SwiperSlide>
-                <SwiperSlide><img src={Depoimento} alt="" /></SwiperSlide>
+                {testimonials.map((testimonial, index) => (
+                    <SwiperSlide key={index}><img src={testimonial.src} alt={testimonial.description} /></SwiperSlide>
+                ))}
             </Swiper>
         </Content>
     </Section>

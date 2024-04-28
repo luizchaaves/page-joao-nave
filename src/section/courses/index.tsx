@@ -1,48 +1,22 @@
-import CardCourses from '../../components/card-courses'
+import { ICourse } from '../../types/data-types'
+import { CardCourses } from '../../components'
 import { Container, Grid, Header, Section } from './styles'
 
-const Courses = () => {
+interface Props {
+    courses: ICourse[]
+}
 
-    const coursesList = [
-        {
-            id: 1,
-            title: 'Essencial',
-            description: [
-                '5 fornecedores premium',
-                'Ideal para iniciantes que deseja começar com uma seleção inicial',
-                'Perfeito para familiarizar com o processo de importação e venda'
-            ]
-        },
-        {
-            id: 2,
-            title: 'Intermediário',
-            description: [
-                '10 fornecedores premium',
-                'Ideal para empreendedores com alguma experiência',
-                'Expandir a gama de produtos e forncedores disponíveis'
-            ]
-        },
-        {
-            id: 3,
-            title: 'Avançado',
-            description: [
-                '18 fornecedores premium',
-                'Abrangente para empreendedores experientes',
-                'Diversificar o alcance no mercado e estabelecer relações com uma variedade de fornecedores'
-            ]
-        }
-    ]
-
+const Courses = ({ courses }: Props) => {
   return (
-    <Section>
+    <Section id="courses">
         <Container data-aos="fade-up">
             <Header>
                 <h2>Inscreva-se!</h2>
             </Header>
 
             <Grid>
-                {coursesList.map((course, key) => (
-                    <CardCourses key={key} title={course.title} description={course.description}/>
+                {courses.map((course, index) => (
+                    <CardCourses key={index} title={course.title} description={course.description}/>
                 ))}
             </Grid>
         </Container>

@@ -3,11 +3,13 @@ import Providers from './components/providers';
 
 import { Home } from './pages';
 
+import PageData from './landing-page-data.json';
+
 function App() {
 
   return (
     <Providers>
-        <Home/>
+        <Home dataHomePage={PageData}/>
         <GlobalStyles/>
     </Providers>
   )

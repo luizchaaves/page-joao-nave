@@ -1,9 +1,13 @@
 import styled from 'styled-components';
-import bg from '../../assets/background.jpeg';
+// import bg from '../../assets/background.jpeg';
 
-export const Section = styled.section`
+interface StyledProps {
+    background: string
+}
+
+export const Section = styled.section<StyledProps>`
     background-position: center;
-    background-image: linear-gradient(to top right, rgba(18, 18, 20, 0.8196078431) 40%, rgba(21, 212, 123, 0.5294117647) 150%), url(${bg});
+    background-image: linear-gradient(to top right, rgba(18, 18, 20, 0.8196078431) 40%, rgba(21, 212, 123, 0.5294117647) 150%), url(${props => props.background});
     background-repeat: no-repeat;
     backdrop-filter: blur(1px);
     background-size: cover;

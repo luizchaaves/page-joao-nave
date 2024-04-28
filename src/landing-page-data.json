@@ -1,0 +1,102 @@
+{
+    "background": {
+        "image": {
+            "src": "https://github.com/luizchaaves/page-joao-nave/blob/master/resources/background/joao-background.webp?raw=true",
+            "description": "Imagem de fundo com João da Nave e produtos importados"
+        }
+    },
+    "biography": {
+        "image": {
+            "src": "https://github.com/luizchaaves/page-joao-nave/blob/master/resources/biography/joao-biography.webp?raw=true",
+            "description": "Imagem de perfil de João da Nave"
+        },
+        "text": "João Pedro Teixeira mais conhecido no Instagram como “João da Nave” tem 24 anos e é um apaixonado por carros modificados hoje conta com mais de 150 Mil Seguidores e já ajudou milhares de pessoas em suas redes Sociais.\nEm 2022, começou a desvendar o mercado chinês pois sabia que lá era a fonte de todos os produtos que trabalhava em suas lojas on-line. E depois de muito estudo, muito contato diretamente com os fabricantes conseguiu os melhores contatos do mercado premium de diversos produtos, sendo eles, Chuteiras, Matérias esportivos, Roupas de grife, tênis e os acessórios mais vendidos na internet.\nQuando João iniciou no mercado de vendas on-line eram diretamente com fornecedores brasileiros e era somente para ter uma renda extra, pois morava sozinho em uma cidade do interior de Minas Gerais no qual tinha ido para trabalhar na área que se formou, e não conseguia fechar o mês somente com salário da empresa. Se passou alguns meses descobriu sobre o fabricante dos produtos que os fornecedores brasileiros vendiam e depois de muito tempo conseguiu contato com um e fez uma certa amizade com o mesmo no qual abriu a porta dos melhores fabricantes premium do mercado mundial.\nFinal de 2023 João decidiu compartilhar esses fornecedores com apenas 10 seguidores de seu Instagram e tinha um processo seletivo no qual essas 10 pessoas que foram beneficiadas tinham que mostrar o porque queria fazer parte e qual era o intuito, pois João não queria entregar o ouro para qualquer pessoa, com apenas duas semanas 8 dos 10 alunos do método já tinha realizado mais de 3 vendas no ramo em qual escolheu seguir, com dois meses 4/10 já ganhavam mais do que recebia em seu trabalho principal. E assim surgiu a ideia de entregar um conteúdo mais que validado para pessoas que realmente querem viver o mercado que mais cresce na internet, o ouro está em sua mão, e não ficará por muito tempo, basta você querer"
+    },
+    "testimonials": [
+        {
+            "src": "https://github.com/luizchaaves/page-joao-nave/blob/master/resources/testimonials/testimonials-1.webp?raw=true",
+            "description": "Depoimento de um aluno do curso"
+        },
+        {
+            "src": "https://github.com/luizchaaves/page-joao-nave/blob/master/resources/testimonials/testimonials-2.webp?raw=true",
+            "description": "Depoimento de um aluno do curso"
+        },
+        {
+            "src": "https://github.com/luizchaaves/page-joao-nave/blob/master/resources/testimonials/testimonials-3.webp?raw=true",
+            "description": "Depoimento de um aluno do curso"
+        },
+        {
+            "src": "https://github.com/luizchaaves/page-joao-nave/blob/master/resources/testimonials/testimonials-4.webp?raw=true",
+            "description": "Depoimento de um aluno do curso"
+        },
+        {
+            "src": "https://github.com/luizchaaves/page-joao-nave/blob/master/resources/testimonials/testimonials-5.webp?raw=true",
+            "description": "Depoimento de um aluno do curso"
+        }
+    ],
+    "informations": [
+        {
+            "icon": "FaShoppingCart",
+            "title": "Compra de produtos",
+            "description": "Você terá o contato de todos fornecedores com um catálogo de produtos para facilitar ainda mais na hora de fazer um pedido. Além disso uma vídeo aula bem explicativa te ensinando como fazer o pedido diretamente com os fabricantes"
+        },
+        {
+            "title": "Estratégias de vendas",
+            "icon": "FaChartBar",
+            "description": "Você terá acesso a TODAS ESTRATÉGIAS que uso para ter o meu negócio de sucesso, todo conhecimento adquirido ao longos desse anos com os melhores no ramo de vendas para VOCÊ executar suas primeiras vendas em tempo recorde. Lembrando também que você vai ter o meu WhatsApp para tirar qualquer dúvida comigo, estou a disposição para te ajudar"
+        },
+        {
+            "title": "Controle financeiro",
+            "icon": "FaWallet",
+            "description": "Um dos tópicos mais importantes do seu negócio e que ninguém fala dele, estou aqui para te entregar não somente contato de fornecedores, mas um curso completo, e vou ensinar você a cuidar da maneira certa do dinheiro do seu negócio de sucesso"
+        },
+        {
+            "title": "Fornecedores",
+            "icon": "FaTruck",
+            "description": "A lista de fornecedores não é sites nem nada do tipo, são literalmente o contato de WhatsApp de todos os fabricantes, então você vai ter uma variedade de fornecedores disponível com os melhores e mais vendidos produtos da internet. Caso queira um fornecedor específico de certo produto é o que disse acima, você terá meu WhatsApp, você tem toda a liberdade de conversar comigo e me apresentar o que está precisando, afinal, estou aqui para te fazer crescer, não esfregar uma lista de fornecedores “meia boca” e sumir"
+        }
+    ],
+    "differentials": [
+        {
+            "text": "Acesso a fornecedores premium"
+        },
+        {
+            "text": "Estratégias de compras eficientes"
+        },
+        {
+            "text": "Suporte personalizado"
+        },
+        {
+            "text": "Conteúdo atualizado regularmente"
+        },
+        {
+            "text": "Garantia de satisfação"
+        }
+    ],
+    "courses": [
+        {
+            "title": "Essencial",
+            "description": [
+                "5 fornecedores premium",
+                "Ideal para iniciantes que deseja começar com uma seleção inicial",
+                "Perfeito para familiarizar com o processo de importação e venda"
+            ]
+        },
+        {
+            "title": "Intermediário",
+            "description": [
+                "10 fornecedores premium",
+                "Ideal para empreendedores com alguma experiência",
+                "Expandir a gama de produtos e forncedores disponíveis"
+            ]
+        },
+        {
+            "title": "Avançado",
+            "description": [
+                "18 fornecedores premium",
+                "Abrangente para empreendedores experientes",
+                "Diversificar o alcance no mercado e estabelecer relações com uma variedade de fornecedores"
+            ]
+        }
+    ]
+}
