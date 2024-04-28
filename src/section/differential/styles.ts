@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Section = styled.div`
-    /* min-height: 100vh; */
+    min-height: 64vh;
     max-width: 1200px;
     margin: 0 auto;
     padding: 64px 16px;
@@ -37,7 +37,7 @@ export const Header = styled.div`
 export const Grid = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    row-gap: 64px;
+    row-gap: 96px;
     column-gap: 32px;
 
     div {
@@ -50,6 +50,10 @@ export const Grid = styled.div`
             font-weight: 500;
             text-align: center;
         }
+    }
+
+    @media (max-width: ${props => props.theme.breakpoints.mobile}) {
+        row-gap: 64px;
     }
 
     @media (max-width: 664px) {

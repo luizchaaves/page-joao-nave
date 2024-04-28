@@ -1,6 +1,6 @@
 import { ICourse } from '../../types/data-types'
 import { CardCourses } from '../../components'
-import { Container, Grid, Header, Section } from './styles'
+import { Container, Grid, Header, Content, Section } from './styles'
 
 interface Props {
     courses: ICourse[]
@@ -14,11 +14,13 @@ const Courses = ({ courses }: Props) => {
                 <h2>Inscreva-se!</h2>
             </Header>
 
-            <Grid>
-                {courses.map((course, index) => (
-                    <CardCourses key={index} title={course.title} description={course.description}/>
-                ))}
-            </Grid>
+            <Content>
+                <Grid>
+                    {courses.map((course, index) => (
+                        <CardCourses key={index} title={course.title} description={course.description}/>
+                    ))}
+                </Grid>
+            </Content>
         </Container>
     </Section>
   )

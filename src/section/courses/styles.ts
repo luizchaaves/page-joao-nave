@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
+    display: flex;
+    min-height: 80vh;
     background: ${(props) => props.theme.background.secondary};
     color: ${(props) => props.theme.colors.gray_dark};    
 `
@@ -13,6 +15,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     gap: 64px; 
+    flex-grow: 1;
 `
 
 export const Header = styled.div`
@@ -36,6 +39,11 @@ export const Header = styled.div`
             font-size: 24px;
         }
     }
+`
+
+export const Content = styled.div`
+    height: 100%;
+    align-content: center;
 `
 
 export const Grid = styled.div`

@@ -35,7 +35,7 @@ export const Header = styled.div`
 `
 
 export const Content = styled.div`
-    height: 650px;
+    height: 536px;
 
     & .swiper {
         width: 100%;
@@ -53,11 +53,17 @@ export const Content = styled.div`
         overflow: hidden;
     }
 
+    & .swiper-slide > div {
+        background: ${props => props.theme.colors.white};
+        height: 100%;
+        width: 100%;
+    }
+
     & .swiper-slide img {
         display: block;
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
         border-radius: 8px;
         overflow: hidden;
     }

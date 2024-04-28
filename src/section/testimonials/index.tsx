@@ -27,7 +27,7 @@ const Testimonials = ({ testimonials }: Props) => {
                     clickable: true,
                 }}
                 autoplay={{
-                    delay: 1500,
+                    delay: 2000,
                     disableOnInteraction: false,
                 }}
                 breakpoints={{
@@ -43,7 +43,11 @@ const Testimonials = ({ testimonials }: Props) => {
                 modules={[Pagination, Navigation, Autoplay]}
             >
                 {testimonials.map((testimonial, index) => (
-                    <SwiperSlide key={index}><img src={testimonial.src} alt={testimonial.description} /></SwiperSlide>
+                    <SwiperSlide key={index}>
+                        <div style={{background: '#fff', height: '100%', width: '100%'}}>
+                            <img src={testimonial.src} alt={testimonial.description} />
+                        </div>
+                    </SwiperSlide>
                 ))}
             </Swiper>
         </Content>
