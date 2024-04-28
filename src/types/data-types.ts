@@ -5,6 +5,7 @@ export interface PageData {
     informations: IInformation[];
     differentials: IDifferential[];
     courses: ICourse[];
+    questions: IQuestion[]
 }
   
 export interface ICourse {
@@ -33,5 +34,10 @@ export interface IBackground {
 
 export interface IImage {
     src: string;
+    description: string;
+}
+
+export interface IQuestion {
+    title: string;
     description: string;
 }
