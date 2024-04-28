@@ -25,7 +25,7 @@ const Home = ({dataHomePage}: Props) => {
         <Differential differentials={dataHomePage.differentials}/>
         <Courses courses={dataHomePage.courses}/>
         <Biography biography={dataHomePage.biography}/>
-        <Questions/>
+        <Questions questions={dataHomePage.questions}/>
     </>
   )
 }
