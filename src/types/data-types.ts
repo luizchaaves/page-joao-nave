@@ -6,6 +6,7 @@ export interface PageData {
     differentials: IDifferential[];
     courses: ICourse[];
     questions: IQuestion[]
+    contact: IContact
 }
   
 export interface ICourse {
@@ -41,3 +42,7 @@ export interface IQuestion {
     title: string;
     description: string;
 }
+
+export interface IContact {
+    link: string;
+  }

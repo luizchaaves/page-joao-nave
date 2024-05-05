@@ -1,13 +1,14 @@
 import { FaWhatsapp } from "react-icons/fa";
-import { IQuestion } from '../../types/data-types';
-import { Accordion, Button } from '../../components'
-import { Contact, Container, Content, Header, List, Section, Warning } from './styles'
+import { IContact, IQuestion } from '../../types/data-types';
+import { Accordion } from '../../components'
+import { ButtonLink, Contact, Container, Content, Header, List, Section, Warning } from './styles'
 
 interface Props {
-    questions: IQuestion[]
+    questions: IQuestion[],
+    contact: IContact
 }
 
-const Questions = ({ questions }: Props) => {
+const Questions = ({ questions, contact }: Props) => {
   return (
     <Section>
         <Container data-aos="fade-down">
@@ -25,7 +26,7 @@ const Questions = ({ questions }: Props) => {
                 <Contact>
                     <h2>Ficou com alguma dúvida do produto?</h2>
                     <p>Fale diretamente com João da Nave no WhatsApp</p>
-                    <Button><FaWhatsapp /> Entrar em contato com o suporte</Button>
+                    <ButtonLink href={contact.link} target="_blank"><FaWhatsapp /> Entrar em contato com o suporte</ButtonLink>
                 </Contact>
 
                 <Warning>
