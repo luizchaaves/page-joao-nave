@@ -4,6 +4,8 @@ export const Container = styled.div`
     border-radius: 8px;
     overflow: hidden;
     border: 1px solid ${(props) => props.theme.colors.green_light};
+    display: flex;
+    flex-direction: column;
 `
 
 export const Content = styled.div`
@@ -11,7 +13,7 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     gap: 16px;
-    min-height: 300px;
+    flex: 1;
 `
 
 export const Title = styled.h3`
@@ -64,11 +66,36 @@ export const Footer = styled.div`
     align-items: center;
     justify-content: center;
 
+    flex-direction: column;
+    gap: 16px;
+
     @media (max-width: 1100px) {
         justify-content: flex-end;
     }
 
     @media (max-width: ${(props) => props.theme.breakpoints.mobile}) {
         justify-content: center;
+    }
+`
+
+export const Price = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    & > p {
+        font-size: 12px;
+        color: #bababa;
+
+        & > span {
+            text-decoration: line-through;
+            color: ${props => props.theme.colors.green_light};
+        }
+    }
+
+    & > span {
+        font-size: 22px;
+        font-weight: 600;
     }
 `

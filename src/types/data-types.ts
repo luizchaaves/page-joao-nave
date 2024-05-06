@@ -12,7 +12,13 @@ export interface PageData {
 export interface ICourse {
     title: string;
     description: string[];
+    price: IPrice
 }
+
+export interface IPrice {
+    normalPrice: number;
+    promotionalPrice: number;
+  }
 
 export interface IDifferential {
     text: string;

@@ -1,12 +1,14 @@
+import { IPrice } from '../../types/data-types';
 import Button from '../button'
-import { Container, Content, Description, Footer, Item, Title } from './styles';
+import { Container, Content, Description, Footer, Item, Price, Title } from './styles';
 
 type ICardCourses = {
     title: string,
     description: string[],
+    price: IPrice
 }
 
-const CardCourses = ({title, description}: ICardCourses) => {
+const CardCourses = ({title, description, price}: ICardCourses) => {
   return (
     <Container>
         <Content>
@@ -18,6 +20,17 @@ const CardCourses = ({title, description}: ICardCourses) => {
             </Description>
         </Content>
         <Footer>
+            <Price>
+                {price.promotionalPrice ? (
+                    <>
+                        <p>de <span>{ (price.normalPrice/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</span> por</p>
+                        <span>{ (price.promotionalPrice/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</span>
+                    </>
+                ) : (
+                    <span>{ (price.normalPrice/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</span>
+                )}
+            </Price>
+
             <Button>Assinar</Button>
         </Footer>
     </Container>

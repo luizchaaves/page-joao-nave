@@ -83,7 +83,11 @@
                 "5 fornecedores premium",
                 "Ideal para iniciantes que deseja começar com uma seleção inicial",
                 "Perfeito para familiarizar com o processo de importação e venda"
-            ]
+            ],
+            "price": {
+                "normalPrice": 19799,
+                "promotionalPrice": 3499 
+            }
         },
         {
             "title": "Intermediário",
@@ -91,7 +95,11 @@
                 "10 fornecedores premium",
                 "Ideal para empreendedores com alguma experiência",
                 "Expandir a gama de produtos e forncedores disponíveis"
-            ]
+            ],
+            "price": {
+                "normalPrice": 34999,
+                "promotionalPrice": 4999 
+            }
         },
         {
             "title": "Avançado",
@@ -99,7 +107,11 @@
                 "18 fornecedores premium",
                 "Abrangente para empreendedores experientes",
                 "Diversificar o alcance no mercado e estabelecer relações com uma variedade de fornecedores"
-            ]
+            ],
+            "price": {
+                "normalPrice": 49999,
+                "promotionalPrice": 7499 
+            }
         }
     ],
     "questions": [
