@@ -5,7 +5,8 @@ import {
     Differential,
     Courses,
     Biography,
-    Questions
+    Questions,
+    Video
 } from '../../section';
 
 import { Divider } from '../../components';
@@ -21,6 +22,8 @@ const Home = ({dataHomePage}: Props) => {
         <Introduction background={dataHomePage.background}/>
         <Information informations={dataHomePage.informations}/>
         <Testimonials testimonials={dataHomePage.testimonials}/>
+        <Divider/>
+        <Video />
         <Divider/>
         <Differential differentials={dataHomePage.differentials}/>
         <Courses courses={dataHomePage.courses}/>

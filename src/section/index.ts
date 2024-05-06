@@ -5,6 +5,7 @@ import Information from './information';
 import Introduction from './introduction';
 import Questions from './questions';
 import Testimonials from './testimonials';
+import Video from './video';
 
 export {
     Biography,
@@ -13,5 +14,6 @@ export {
     Information,
     Introduction,
     Questions,
-    Testimonials
+    Testimonials,
+    Video
 }
