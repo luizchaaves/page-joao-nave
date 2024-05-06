@@ -26,7 +26,7 @@ const fadeOut = keyframes`
   }
 `;
 
-export const Container = styled.div<StyledProps>`
+export const Container = styled.dl<StyledProps>`
     display: flex;
     flex-direction: column;
     border: 1px solid ${(props) => props.theme.colors.green_light};

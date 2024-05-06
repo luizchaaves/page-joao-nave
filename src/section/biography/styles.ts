@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Section = styled.div`
+export const Section = styled.section`
     /* min-height: 100vh; */
     max-width: 1200px;
     margin: 0 auto;
@@ -30,7 +30,7 @@ export const Photo = styled.div`
 
     & > div {
         aspect-ratio: 1 / 1;
-        background: ${(props) => props.theme.colors.green_light};
+        background: linear-gradient(90deg, rgba(34,34,34,1) 0%, rgba(78,212,119,1) 50%, rgba(34,34,34,1) 100%);
         border-radius: 2rem;
         display: grid;
         height: 300px;
