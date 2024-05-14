@@ -17,7 +17,7 @@ const Biography = ({ biography }: Props) => {
         <Content>
           <Header>
             <h2>
-              Quem é <span>João da Nave</span>?
+              Quem é <span>João Pedro</span>?
             </h2>
           </Header>
           <pre>{biography.text}</pre>

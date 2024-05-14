@@ -25,7 +25,7 @@ const Questions = ({ questions, contact }: Props) => {
 
                 <Contact>
                     <h2>Ficou com alguma dúvida do produto?</h2>
-                    <p>Fale diretamente com João da Nave no WhatsApp</p>
+                    <p>Fale diretamente com João Pedro no WhatsApp</p>
                     <ButtonLink href={contact.link} target="_blank"><FaWhatsapp /> Entrar em contato com o suporte</ButtonLink>
                 </Contact>
 
