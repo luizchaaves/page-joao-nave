@@ -1,32 +1,31 @@
 import { ICourse } from '../../types/data-types';
-import Button from '../button'
-import { Container, Content, Description, Flag, Footer, Item, Price, Title } from './styles';
+import { Container, Content, Description, Flag, Footer, Item, Price, Title, ButtonLink } from './styles';
 
-const CardCourses = ({title, description, price, recommended}: ICourse) => {
+const CardCourses = (course: ICourse) => {
   return (
     <Container>
-        { recommended && <Flag>Recomendado</Flag> }
+        { course.recommended && <Flag>Recomendado</Flag> }
         <Content>
-            <Title>{title}</Title>
+            <Title>{course.title}</Title>
             <Description>
-                { description.map((item, key) => (
+                { course.description.map((item, key) => (
                     <Item key={key}>{item}</Item>
                 )) }
             </Description>
         </Content>
         <Footer>
             <Price>
-                {price.promotionalPrice ? (
+                {course.price.promotionalPrice ? (
                     <>
-                        <p>de <span>{ (price.normalPrice/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</span> por</p>
-                        <span>{ (price.promotionalPrice/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</span>
+                        <p>de <span>{ (course.price.normalPrice/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</span> por</p>
+                        <span>{ (course.price.promotionalPrice/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</span>
                     </>
                 ) : (
-                    <span>{ (price.normalPrice/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</span>
+                    <span>{ (course.price.normalPrice/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</span>
                 )}
             </Price>
 
-            <Button>Assinar</Button>
+            <ButtonLink href={course.link} target="_blank">Assinar</ButtonLink>
         </Footer>
     </Container>
   )

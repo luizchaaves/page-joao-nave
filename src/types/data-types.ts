@@ -19,6 +19,7 @@ export interface ICourse {
     title: string;
     description: string[];
     price: IPrice,
+    link: string,
     recommended: boolean;
 }
 
