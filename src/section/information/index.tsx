@@ -35,7 +35,7 @@ const Information = ({ informations }: Props) => {
             </Grid>
 
             <ContainerButton>
-                <Button onClick={scrollToCoursesButton}>Garantir curso + fornecedores</Button>
+                <Button onClick={scrollToCoursesButton}>Garantir curso + fabricantes</Button>
             </ContainerButton>
         </Container>
     </Section>

@@ -10,7 +10,7 @@
             "src": "https://github.com/luizchaaves/page-joao-nave/blob/master/resources/biography/joao-biography.webp?raw=true",
             "description": "Imagem de perfil de João Pedro"
         },
-        "text": "João Pedro Teixeira, tem 24 anos e é um apaixonado por carros modificados. Atualmente, conta com mais de 150 mil seguidores e já ajudou milhares de pessoas em suas redes sociais.\n\nEm 2022, começou a explorar o mercado chinês, pois sabia que lá estava a fonte de todos os produtos com os quais trabalhava em suas lojas online. Após muito estudo e contato direto com os fabricantes, conseguiu os melhores contatos do mercado premium de diversos produtos, como chuteiras, materiais esportivos, roupas de grife, tênis e acessórios mais vendidos na internet.\n\nQuando João iniciou no mercado de vendas online, trabalhava diretamente com fornecedores brasileiros e buscava apenas uma renda extra, pois morava sozinho em uma cidade do interior de Minas Gerais, onde tinha ido trabalhar na área em que se formou. Não conseguia fechar o mês somente com o salário da empresa. Após alguns meses, descobriu os fabricantes dos produtos vendidos pelos fornecedores brasileiros e, após muito tempo, conseguiu contato com um deles, estabelecendo uma certa amizade, o que abriu as portas para os melhores fabricantes premium do mercado mundial.\n\nNo final de 2023, João decidiu compartilhar esses fornecedores com apenas 10 seguidores de seu Instagram. Estabeleceu um processo seletivo no qual essas 10 pessoas beneficiadas deveriam mostrar por que desejavam fazer parte e qual era o objetivo. João não queria entregar o ouro para qualquer pessoa. Em apenas duas semanas, oito dos dez alunos do método já haviam realizado mais de três vendas no ramo que escolheram seguir. Em dois meses, quatro desses dez já ganhavam mais do que recebiam em seus trabalhos principais.\n\nAssim, surgiu a ideia de disponibilizar um conteúdo validado para pessoas que realmente desejam ingressar no mercado que mais cresce na internet. O ouro está em suas mãos e não permanecerá disponível por muito tempo. Basta você querer."
+        "text": "João Pedro Teixeira, tem 24 anos e é um apaixonado por carros modificados. Atualmente, conta com mais de 150 mil seguidores e já ajudou milhares de pessoas em suas redes sociais.\n\nEm 2022, começou a explorar o mercado chinês, pois sabia que lá estava a fonte de todos os produtos com os quais trabalhava em suas lojas online. Após muito estudo e contato direto com os fabricantes, conseguiu os melhores contatos do mercado premium de diversos produtos, como chuteiras, materiais esportivos, roupas de grife, tênis e acessórios mais vendidos na internet.\n\nQuando João iniciou no mercado de vendas online, trabalhava diretamente com fabricantes brasileiros e buscava apenas uma renda extra, pois morava sozinho em uma cidade do interior de Minas Gerais, onde tinha ido trabalhar na área em que se formou. Não conseguia fechar o mês somente com o salário da empresa. Após alguns meses, descobriu os fabricantes dos produtos vendidos pelos fornecedores brasileiros e, após muito tempo, conseguiu contato com um deles, estabelecendo uma certa amizade, o que abriu as portas para os melhores fabricantes premium do mercado mundial.\n\nNo final de 2023, João decidiu compartilhar esses fabricantes com apenas 10 seguidores de seu Instagram. Estabeleceu um processo seletivo no qual essas 10 pessoas beneficiadas deveriam mostrar por que desejavam fazer parte e qual era o objetivo. João não queria entregar o ouro para qualquer pessoa. Em apenas duas semanas, oito dos dez alunos do método já haviam realizado mais de três vendas no ramo que escolheram seguir. Em dois meses, quatro desses dez já ganhavam mais do que recebiam em seus trabalhos principais.\n\nAssim, surgiu a ideia de disponibilizar um conteúdo validado para pessoas que realmente desejam ingressar no mercado que mais cresce na internet. O ouro está em suas mãos e não permanecerá disponível por muito tempo. Basta você querer."
     },
     "testimonials": [
         {
@@ -38,7 +38,7 @@
         {
             "icon": "FaShoppingCart",
             "title": "Compra de produtos",
-            "description": "Acesso exclusivo aos contatos dos fornecedores e catálogo detalhado para facilitar suas compras. Vídeo aula abrangente para orientá-lo nos pedidos diretos com os fabricantes."
+            "description": "Acesso exclusivo aos contatos dos fabricantes e catálogo detalhado para facilitar suas compras. Vídeo aula abrangente para orientá-lo nos pedidos diretos com os fabricantes."
         },
         {
             "title": "Estratégias de vendas",
@@ -48,17 +48,17 @@
         {
             "title": "Controle financeiro",
             "icon": "FaWallet",
-            "description": "Controle financeiro é crucial para o sucesso. Oferecemos contatos de fornecedores e um curso completo sobre gestão financeira. Estou aqui para garantir seu sucesso financeiro."
+            "description": "Controle financeiro é crucial para o sucesso. Oferecemos contatos de fabricantes e um curso completo sobre gestão financeira. Estou aqui para garantir seu sucesso financeiro."
         },
         {
-            "title": "Fornecedores",
+            "title": "Fabricantes",
             "icon": "FaTruck",
-            "description": "Nossa lista de fornecedores oferece contatos diretos dos fabricantes via WhatsApp, garantindo produtos de alta qualidade. Estou aqui para garantir sua satisfação."
+            "description": "Nossa lista de fabricantes oferece contatos diretos dos fabricantes via WhatsApp, garantindo produtos de alta qualidade. Estou aqui para garantir sua satisfação."
         }
     ],
     "differentials": [
         {
-            "text": "Acesso a fornecedores premium",
+            "text": "Acesso a fabricantes premium",
             "icon": "key"
         },
         {
@@ -86,12 +86,12 @@
         {
             "title": "Essencial",
             "description": [
-                "5 fornecedores premium",
+                "5 fabricantes premium",
                 "Ideal para iniciantes que deseja começar com uma seleção inicial",
                 "Perfeito para familiarizar com o processo de importação e venda"
             ],
             "price": {
-                "normalPrice": 11590,
+                "normalPrice": 7890,
                 "promotionalPrice": 3490 
             },
             "recommended": false
@@ -99,12 +99,12 @@
         {
             "title": "Intermediário",
             "description": [
-                "10 fornecedores premium",
+                "10 fabricantes premium",
                 "Ideal para empreendedores com alguma experiência",
                 "Expandir a gama de produtos e forncedores disponíveis"
             ],
             "price": {
-                "normalPrice": 12490,
+                "normalPrice": 16690,
                 "promotionalPrice": 4990 
             },
             "recommended": true
@@ -112,12 +112,12 @@
         {
             "title": "Avançado",
             "description": [
-                "18 fornecedores premium",
+                "18 fabricantes premium",
                 "Abrangente para empreendedores experientes",
-                "Diversificar o alcance no mercado e estabelecer relações com uma variedade de fornecedores"
+                "Diversificar o alcance no mercado e estabelecer relações com uma variedade de fabricantes"
             ],
             "price": {
-                "normalPrice": 24990,
+                "normalPrice": 18790,
                 "promotionalPrice": 7490 
             },
             "recommended": false
@@ -149,10 +149,10 @@
         "link": "https://wa.me/5531998921212?text=Fala+Jo%C3%A3o%2C+quero+tirar+uma+d%C3%BAvida+sobre+o+m%C3%A9todo+%22Desvendando+os+fornecedores+premium+chineses%22." 
     },
     "video": {
-        "text": "Descubra como fazer mais de 7 dígitos por ano com as técnicas de venda e fornecedores premium da China. Vou te mostrar todos os segredos neste curso. Assista ao vídeo para saber mais e começar a sua jornada para o sucesso financeiro.",
+        "text": "Descubra como fazer mais de 6 dígitos por ano com as técnicas de venda e fabricantes premium da China. Vou te mostrar todos os segredos neste curso. Assista ao vídeo para saber mais e começar a sua jornada para o sucesso financeiro.",
         "video": {
             "src": "https://www.youtube.com/embed/fUhZ6kLs2cY?si=Uz5KzQuSYQinYB96",
-            "description": "Desvendando os fornecedores PREMIUM chineses"
+            "description": "Desvendando os fabricantes PREMIUM chineses"
         }
     }
 }
