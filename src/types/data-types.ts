@@ -6,13 +6,20 @@ export interface PageData {
     differentials: IDifferential[];
     courses: ICourse[];
     questions: IQuestion[]
-    contact: IContact
+    contact: IContact,
+    video: IVideo;
 }
+
+export interface IVideo {
+    text: string;
+    video: IImage;
+  }
   
 export interface ICourse {
     title: string;
     description: string[];
-    price: IPrice
+    price: IPrice,
+    recommended: boolean;
 }
 
 export interface IPrice {
@@ -22,6 +29,7 @@ export interface IPrice {
 
 export interface IDifferential {
     text: string;
+    icon: string;
 }
 
 export interface IInformation {

@@ -10,7 +10,7 @@
             "src": "https://github.com/luizchaaves/page-joao-nave/blob/master/resources/biography/joao-biography.webp?raw=true",
             "description": "Imagem de perfil de João da Nave"
         },
-        "text": "João Pedro Teixeira, mais conhecido no Instagram como 'João da Nave', tem 24 anos e é um apaixonado por carros modificados. Atualmente, conta com mais de 150 mil seguidores e já ajudou milhares de pessoas em suas redes sociais.\nEm 2022, começou a explorar o mercado chinês, pois sabia que lá estava a fonte de todos os produtos com os quais trabalhava em suas lojas online. Após muito estudo e contato direto com os fabricantes, conseguiu os melhores contatos do mercado premium de diversos produtos, como chuteiras, materiais esportivos, roupas de grife, tênis e acessórios mais vendidos na internet.\nQuando João iniciou no mercado de vendas online, trabalhava diretamente com fornecedores brasileiros e buscava apenas uma renda extra, pois morava sozinho em uma cidade do interior de Minas Gerais, onde tinha ido trabalhar na área em que se formou. Não conseguia fechar o mês somente com o salário da empresa. Após alguns meses, descobriu os fabricantes dos produtos vendidos pelos fornecedores brasileiros e, após muito tempo, conseguiu contato com um deles, estabelecendo uma certa amizade, o que abriu as portas para os melhores fabricantes premium do mercado mundial.\nNo final de 2023, João decidiu compartilhar esses fornecedores com apenas 10 seguidores de seu Instagram. Estabeleceu um processo seletivo no qual essas 10 pessoas beneficiadas deveriam mostrar por que desejavam fazer parte e qual era o objetivo. João não queria entregar o ouro para qualquer pessoa. Em apenas duas semanas, oito dos dez alunos do método já haviam realizado mais de três vendas no ramo que escolheram seguir. Em dois meses, quatro desses dez já ganhavam mais do que recebiam em seus trabalhos principais.\nAssim, surgiu a ideia de disponibilizar um conteúdo validado para pessoas que realmente desejam ingressar no mercado que mais cresce na internet. O ouro está em suas mãos e não permanecerá disponível por muito tempo. Basta você querer."
+        "text": "João Pedro Teixeira, mais conhecido no Instagram como 'João da Nave', tem 24 anos e é um apaixonado por carros modificados. Atualmente, conta com mais de 150 mil seguidores e já ajudou milhares de pessoas em suas redes sociais.\n\nEm 2022, começou a explorar o mercado chinês, pois sabia que lá estava a fonte de todos os produtos com os quais trabalhava em suas lojas online. Após muito estudo e contato direto com os fabricantes, conseguiu os melhores contatos do mercado premium de diversos produtos, como chuteiras, materiais esportivos, roupas de grife, tênis e acessórios mais vendidos na internet.\n\nQuando João iniciou no mercado de vendas online, trabalhava diretamente com fornecedores brasileiros e buscava apenas uma renda extra, pois morava sozinho em uma cidade do interior de Minas Gerais, onde tinha ido trabalhar na área em que se formou. Não conseguia fechar o mês somente com o salário da empresa. Após alguns meses, descobriu os fabricantes dos produtos vendidos pelos fornecedores brasileiros e, após muito tempo, conseguiu contato com um deles, estabelecendo uma certa amizade, o que abriu as portas para os melhores fabricantes premium do mercado mundial.\n\nNo final de 2023, João decidiu compartilhar esses fornecedores com apenas 10 seguidores de seu Instagram. Estabeleceu um processo seletivo no qual essas 10 pessoas beneficiadas deveriam mostrar por que desejavam fazer parte e qual era o objetivo. João não queria entregar o ouro para qualquer pessoa. Em apenas duas semanas, oito dos dez alunos do método já haviam realizado mais de três vendas no ramo que escolheram seguir. Em dois meses, quatro desses dez já ganhavam mais do que recebiam em seus trabalhos principais.\n\nAssim, surgiu a ideia de disponibilizar um conteúdo validado para pessoas que realmente desejam ingressar no mercado que mais cresce na internet. O ouro está em suas mãos e não permanecerá disponível por muito tempo. Basta você querer."
     },
     "testimonials": [
         {
@@ -38,42 +38,48 @@
         {
             "icon": "FaShoppingCart",
             "title": "Compra de produtos",
-            "description": "Tenha acesso exclusivo aos contatos de todos os fornecedores, acompanhado de um catálogo detalhado de produtos para simplificar o processo de compra. Além disso, você receberá uma vídeo aula abrangente, orientando passo a passo sobre como efetuar pedidos diretamente com os fabricantes."
+            "description": "Acesso exclusivo aos contatos dos fornecedores e catálogo detalhado para facilitar suas compras. Vídeo aula abrangente para orientá-lo nos pedidos diretos com os fabricantes."
         },
         {
             "title": "Estratégias de vendas",
             "icon": "FaChartBar",
-            "description": "Desvende todas as estratégias que impulsionaram meu negócio ao sucesso. Ao adquirir este pacote, você terá acesso ao conhecimento acumulado ao longo de anos, compartilhado pelos melhores profissionais do ramo de vendas. E não se preocupe, estarei à disposição via WhatsApp para esclarecer todas as suas dúvidas e garantir que você inicie suas vendas com sucesso em tempo recorde."
+            "description": "Desvende estratégias de sucesso com acesso ao conhecimento compartilhado por profissionais experientes. Estarei disponível via WhatsApp para garantir seu sucesso nas vendas."
         },
         {
             "title": "Controle financeiro",
             "icon": "FaWallet",
-            "description": "Não subestime a importância do controle financeiro para o sucesso do seu negócio. Além de fornecer contatos de fornecedores, oferecemos um curso completo que ensina como gerenciar de forma eficiente as finanças do seu empreendimento. Estou aqui para garantir que você saiba como cuidar do dinheiro do seu negócio da maneira correta e alcançar o sucesso almejado."
+            "description": "Controle financeiro é crucial para o sucesso. Oferecemos contatos de fornecedores e um curso completo sobre gestão financeira. Estou aqui para garantir seu sucesso financeiro."
         },
         {
             "title": "Fornecedores",
             "icon": "FaTruck",
-            "description": "Nossa lista de fornecedores oferece contatos diretos dos fabricantes via WhatsApp, garantindo uma ampla variedade de produtos de alta qualidade. Estou disponível para atender suas necessidades específicas e garantir sua satisfação, com o objetivo de impulsionar o seu crescimento e sucesso."
+            "description": "Nossa lista de fornecedores oferece contatos diretos dos fabricantes via WhatsApp, garantindo produtos de alta qualidade. Estou aqui para garantir sua satisfação."
         }
     ],
     "differentials": [
         {
-            "text": "Acesso a fornecedores premium"
+            "text": "Acesso a fornecedores premium",
+            "icon": "key"
         },
         {
-            "text": "Estratégias de compras eficientes"
+            "text": "Estratégias de compras eficientes",
+            "icon": "trending_up"
         },
         {
-            "text": "Suporte personalizado"
+            "text": "Suporte personalizado",
+            "icon": "person"
         },
         {
-            "text": "Exclusividade de conteúdo"
+            "text": "Exclusividade de conteúdo",
+            "icon": "workspace_premium"
         },
         {
-            "text": "Atualizações regulares"
+            "text": "Atualizações regulares",
+            "icon": "calendar_month"
         },
         {
-            "text": "Garantia de satisfação"
+            "text": "Garantia de satisfação",
+            "icon": "check"
         }
     ],
     "courses": [
@@ -85,9 +91,10 @@
                 "Perfeito para familiarizar com o processo de importação e venda"
             ],
             "price": {
-                "normalPrice": 19799,
-                "promotionalPrice": 3499 
-            }
+                "normalPrice": 11590,
+                "promotionalPrice": 3490 
+            },
+            "recommended": false
         },
         {
             "title": "Intermediário",
@@ -97,9 +104,10 @@
                 "Expandir a gama de produtos e forncedores disponíveis"
             ],
             "price": {
-                "normalPrice": 34999,
-                "promotionalPrice": 4999 
-            }
+                "normalPrice": 12490,
+                "promotionalPrice": 4990 
+            },
+            "recommended": true
         },
         {
             "title": "Avançado",
@@ -109,9 +117,10 @@
                 "Diversificar o alcance no mercado e estabelecer relações com uma variedade de fornecedores"
             ],
             "price": {
-                "normalPrice": 49999,
-                "promotionalPrice": 7499 
-            }
+                "normalPrice": 24990,
+                "promotionalPrice": 7490 
+            },
+            "recommended": false
         }
     ],
     "questions": [
@@ -138,5 +147,12 @@
     ],
     "contact": {
         "link": "https://wa.me/5531998921212?text=Fala+Jo%C3%A3o%2C+quero+tirar+uma+d%C3%BAvida+sobre+o+m%C3%A9todo+%22Desvendando+os+fornecedores+premium+chineses%22." 
+    },
+    "video": {
+        "text": "Descubra como fazer mais de 7 dígitos por ano com as técnicas de venda e fornecedores premium da China. Vou te mostrar todos os segredos neste curso. Assista ao vídeo para saber mais e começar a sua jornada para o sucesso financeiro.",
+        "video": {
+            "src": "https://www.youtube.com/embed/fUhZ6kLs2cY?si=Uz5KzQuSYQinYB96",
+            "description": "Desvendando os fornecedores PREMIUM chineses"
+        }
     }
 }
