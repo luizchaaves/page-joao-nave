@@ -23,7 +23,7 @@ const Home = ({dataHomePage}: Props) => {
         <Information informations={dataHomePage.informations}/>
         <Testimonials testimonials={dataHomePage.testimonials}/>
         <Divider/>
-        <Video />
+        <Video video={dataHomePage.video}/>
         <Divider/>
         <Differential differentials={dataHomePage.differentials}/>
         <Courses courses={dataHomePage.courses}/>
