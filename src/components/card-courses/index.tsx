@@ -1,16 +1,11 @@
-import { IPrice } from '../../types/data-types';
+import { ICourse } from '../../types/data-types';
 import Button from '../button'
-import { Container, Content, Description, Footer, Item, Price, Title } from './styles';
+import { Container, Content, Description, Flag, Footer, Item, Price, Title } from './styles';
 
-type ICardCourses = {
-    title: string,
-    description: string[],
-    price: IPrice
-}
-
-const CardCourses = ({title, description, price}: ICardCourses) => {
+const CardCourses = ({title, description, price, recommended}: ICourse) => {
   return (
     <Container>
+        { recommended && <Flag>Recomendado</Flag> }
         <Content>
             <Title>{title}</Title>
             <Description>

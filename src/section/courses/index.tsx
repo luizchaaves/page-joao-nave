@@ -17,7 +17,7 @@ const Courses = ({ courses }: Props) => {
             <Content>
                 <Grid>
                     {courses.map((course, index) => (
-                        <CardCourses key={index} title={course.title} description={course.description} price={course.price}/>
+                        <CardCourses key={index} title={course.title} description={course.description} price={course.price} recommended={course.recommended}/>
                     ))}
                 </Grid>
             </Content>

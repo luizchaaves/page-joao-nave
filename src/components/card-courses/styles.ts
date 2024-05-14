@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+    position: relative;
     border-radius: 8px;
     overflow: hidden;
     border: 1px solid ${(props) => props.theme.colors.green_light};
@@ -14,6 +15,19 @@ export const Content = styled.div`
     flex-direction: column;
     gap: 16px;
     flex: 1;
+`
+
+export const Flag = styled.div`
+    position: absolute;
+    top: 26px;
+    right: -24px;
+    background-color: #4ed477;
+    color: #ffffff;
+    padding: 5px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    transform: rotate(45deg);
 `
 
 export const Title = styled.h3`
