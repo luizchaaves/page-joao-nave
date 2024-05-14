@@ -1,4 +1,4 @@
-import CheckIcon from '../../assets/check'
+import { StarIcon } from '../../components/index'
 import { IDifferential } from '../../types/data-types'
 import { Grid, Header, Section } from './styles'
 
@@ -16,7 +16,7 @@ const Differential = ({ differentials }: Props) => {
         <Grid>
             {differentials.map((differential, index) => (
                 <div key={index}>
-                    <CheckIcon/>
+                    <StarIcon icon={differential.icon}/>
                     <p>{differential.text}</p>
                 </div>
             ))}
