@@ -10,7 +10,7 @@ export const Container = styled.div`
 `
 
 export const Content = styled.div`
-    padding: 16px;
+    padding: 16px 16px 40px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -75,7 +75,7 @@ export const Item = styled.span`
 
 export const Footer = styled.div`
     background: #f0f0f0;
-    padding: 32px 16px;
+    padding: 16px;
     display: flex;
     align-items: center;
     justify-content: center;

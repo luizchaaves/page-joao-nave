@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    width: 22px;
-    height: 22px;
+    width: 28px;
+    height: 28px;
     background: red;
     position: relative;
     background: #4ed477;
@@ -12,6 +12,6 @@ export const Container = styled.div`
     justify-content: center;
 
     & > span {
-        font-size: 20px;
+        font-size: 24px;
     }
 `
