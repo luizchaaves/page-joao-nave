@@ -3,6 +3,10 @@
         "image": {
             "src": "https://github.com/luizchaaves/page-joao-nave/blob/master/resources/background/joao-background.webp?raw=true",
             "description": "Imagem de fundo com João Pedro e produtos importados"
+        },
+        "image_mobile": {
+            "src": "https://github.com/luizchaaves/page-joao-nave/blob/master/resources/background/joao-background-mobile.webp?raw=true",
+            "description": "Imagem de fundo com João Pedro e produtos importados"
         }
     },
     "biography": {

@@ -2,16 +2,24 @@ import styled from 'styled-components';
 // import bg from '../../assets/background.jpeg';
 
 interface StyledProps {
-    background: string
+    background: string;
+    background_mobile?: string;
 }
 
 export const Section = styled.section<StyledProps>`
-    background-position: center;
     background-image: linear-gradient(to top right, rgba(18, 18, 20, 0.8196078431) 40%, rgba(21, 212, 123, 0.5294117647) 150%), url(${props => props.background});
     background-repeat: no-repeat;
     backdrop-filter: blur(1px);
     background-size: cover;
     height: 100vh;
+
+    @media (max-width: 1190px) {
+        background-position: center;
+    }
+
+    @media (max-width: ${(props) => props.theme.breakpoints.mobile}) {
+        background-image: linear-gradient(to top right, rgba(18, 18, 20, 0.8196078431) 40%, rgba(21, 212, 123, 0.5294117647) 150%), url(${props => props.background_mobile ? props.background_mobile : props.background});
+    }
 `
 
 export const Wrapper = styled.div`

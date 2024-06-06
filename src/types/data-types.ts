@@ -46,6 +46,7 @@ export interface IBiography {
 
 export interface IBackground {
     image: IImage;
+    image_mobile: IImage;
 }
 
 export interface IImage {

@@ -18,7 +18,7 @@ const Introduction = ({ background }: Props) => {
 
     return (
         <StyleSheetManager shouldForwardProp={(prop) => prop != 'background'}>
-            <Section background={background.image.src}>
+            <Section background={background.image.src} background_mobile={background.image_mobile.src}>
                 <Wrapper>
                     <Content data-aos="fade-down">
                         <h1>Desvendando os fabricantes <span>PREMIUM</span> chineses</h1>
