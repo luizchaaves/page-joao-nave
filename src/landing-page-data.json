@@ -91,7 +91,7 @@
             "title": "Essencial",
             "description": [
                 "5 fabricantes premium",
-                "Explore os segredos dos fabricantes premium chineses",
+                "Explore os segredos dos fabricantes premium",
                 "Perfeito para familiarizar com o processo de importação e venda"
             ],
             "price": {
@@ -153,13 +153,13 @@
         }
     ],
     "contact": {
-        "link": "https://wa.me/5531971870825?text=Fala+Jo%C3%A3o%2C+quero+tirar+uma+d%C3%BAvida+sobre+o+m%C3%A9todo+%22Desvendando+os+fabricantes+premium+chineses%22." 
+        "link": "https://api.whatsapp.com/send?phone=5531971870825&text=Fala%20Jo%C3%A3o%2C%20quero%20tirar%20uma%20d%C3%BAvida%20sobre%20o%20m%C3%A9todo%20%22Desvendando%20os%20fabricantes%20premium%20de%20materiais%20esportivos%22." 
     },
     "video": {
         "text": "Descubra como fazer mais de 6 dígitos por ano com as técnicas de venda e fabricantes premium da China. Vou te mostrar todos os segredos neste curso. Assista ao vídeo para saber mais e começar a sua jornada para o sucesso financeiro.",
         "video": {
             "src": "https://www.youtube.com/embed/fUhZ6kLs2cY?si=Uz5KzQuSYQinYB96",
-            "description": "Desvendando os fabricantes PREMIUM chineses"
+            "description": "Desvendando os fabricantes PREMIUM de materiais esportivos"
         }
     }
 }

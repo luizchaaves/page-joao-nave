@@ -21,8 +21,8 @@ const Introduction = ({ background }: Props) => {
             <Section background={background.image.src} background_mobile={background.image_mobile.src}>
                 <Wrapper>
                     <Content data-aos="fade-down">
-                        <h1>Desvendando os fabricantes <span>PREMIUM</span> chineses</h1>
-                        <p>Tenha o contato de inúmeros fabricantes chineses e descubra como fiz para faturar acima de 6 dígitos por ano!</p>
+                        <h1>Desvendando os fabricantes <span>PREMIUM</span> de materiais esportivos</h1>
+                        <p>Tenha o contato de inúmeros fabricantes de materiais esportivos e descubra como fiz para faturar acima de 6 dígitos por ano!</p>
                         <Button onClick={scrollToCoursesButton}>Saiba mais!</Button>
                     </Content>
                 </Wrapper>
