@@ -95,8 +95,8 @@
                 "Perfeito para familiarizar com o processo de importação e venda"
             ],
             "price": {
-                "normalPrice": 7890,
-                "promotionalPrice": 3490 
+                "normalPrice": 3490,
+                "promotionalPrice": 1490 
             },
             "link": "https://pay.kiwify.com.br/nmiIUUg",
             "recommended": false
@@ -109,8 +109,8 @@
                 "Expandir a gama de produtos e forncedores disponíveis"
             ],
             "price": {
-                "normalPrice": 16690,
-                "promotionalPrice": 4990 
+                "normalPrice": 9990,
+                "promotionalPrice": 2990 
             },
             "link": "https://pay.kiwify.com.br/nmiIUUg", 
             "recommended": true
@@ -123,8 +123,8 @@
                 "Diversificar o alcance no mercado e estabelecer relações com uma variedade de fabricantes"
             ],
             "price": {
-                "normalPrice": 18790,
-                "promotionalPrice": 7490 
+                "normalPrice": 11290,
+                "promotionalPrice": 4490 
             },
             "link": "https://pay.kiwify.com.br/nmiIUUg",
             "recommended": false
