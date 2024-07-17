@@ -13,7 +13,7 @@ interface Props {
 
 const Testimonials = ({ testimonials }: Props) => {
   return (
-    <Section data-aos="fade-right">
+    <Section data-aos="fade-right"  id="testimonials">
         <Header>
            <h2>Veja o que nossos clientes estão falando e o <span>resultado</span> que estão tendo</h2>
         </Header>

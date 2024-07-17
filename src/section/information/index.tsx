@@ -10,7 +10,7 @@ interface Props {
 
 const Information = ({ informations }: Props) => {
     const scrollToCoursesButton = () => {
-        const coursesSection = document.getElementById('courses');
+        const coursesSection = document.getElementById('testimonials');
         if(coursesSection) {
             coursesSection.scrollIntoView({ behavior: 'smooth' });
         }
@@ -22,10 +22,10 @@ const Information = ({ informations }: Props) => {
     }
 
   return (
-    <Section>
+    <Section id="informations">
         <Container data-aos="fade-up">
             <Header>
-                <h2>Tudo para te ajudar a ter resultado <span>mais rápido</span>!</h2>
+                <h2>Vou te ajudar a ter resultado <span>mais rápido</span>!</h2>
             </Header>
 
             <Grid>
@@ -35,7 +35,7 @@ const Information = ({ informations }: Props) => {
             </Grid>
 
             <ContainerButton>
-                <Button onClick={scrollToCoursesButton}>Garantir curso + fabricantes</Button>
+                <Button onClick={scrollToCoursesButton}>Garantir curso + fabricantes com até 70% off</Button>
             </ContainerButton>
         </Container>
     </Section>

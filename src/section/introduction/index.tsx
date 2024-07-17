@@ -10,7 +10,7 @@ interface Props {
 const Introduction = ({ background }: Props) => {
 
     const scrollToCoursesButton = () => {
-        const coursesSection = document.getElementById('courses');
+        const coursesSection = document.getElementById('informations');
         if(coursesSection) {
             coursesSection.scrollIntoView({ behavior: 'smooth' });
         }
@@ -21,8 +21,8 @@ const Introduction = ({ background }: Props) => {
             <Section background={background.image.src} background_mobile={background.image_mobile.src}>
                 <Wrapper>
                     <Content data-aos="fade-down">
-                        <h1>Desvendando os fabricantes <span>PREMIUM</span> de materiais esportivos</h1>
-                        <p>Tenha o contato de inúmeros fabricantes de materiais esportivos e descubra como fiz para faturar acima de 6 dígitos por ano!</p>
+                        <h1>Desvendando os <span>MELHORES</span> fabricantes <span>PREMIUM</span> de materiais esportivos</h1>
+                        <p>Veja minha estrutura validada para começar sua loja com os melhores fabricantes e todas as minhas estratégias e cuidados para um processo de vendas superacelerado!</p>
                         <Button onClick={scrollToCoursesButton}>Saiba mais!</Button>
                     </Content>
                 </Wrapper>
