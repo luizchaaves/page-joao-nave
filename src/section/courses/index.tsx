@@ -11,7 +11,7 @@ const Courses = ({ courses }: Props) => {
     <Section id="courses">
         <Container data-aos="fade-up">
             <Header>
-                <h2>Inscreva-se!</h2>
+                <h2>Última chance, desconto exclusivo só até hoje!</h2>
             </Header>
 
             <Content>
